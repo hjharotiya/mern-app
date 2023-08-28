@@ -4,13 +4,32 @@
     {
       "src": "new.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "new.js/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/products",
 
       "dest": "new.js"
+    },
+    {
+      "src": "/products/(.*)",
+
+      "dest": "new.js"
+    },
+    {
+      "src": "/",
+
+      "dest": "dist/new.js"
+    },
+    {
+      "src": "/(.+)",
+
+      "dest": "dist/$1"
     }
   ]
 }
