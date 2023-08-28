@@ -24,7 +24,7 @@
     {
       "src": "/",
 
-      "dest": "dist/index.html"
+      "dest": "public/index.html"
     },
     {
       "src": "/(.+)",
