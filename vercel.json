@@ -24,7 +24,7 @@
     {
       "src": "/",
 
-      "dest": "dist/new.js"
+      "dest": "dist/index.html"
     },
     {
       "src": "/(.+)",
