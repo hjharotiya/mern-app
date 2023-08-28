@@ -1,8 +1,8 @@
 require("dotenv").config();
 const http = require("http");
 const productController = require("./Controller/product");
-const cors = require("cors");
 const express = require("express");
+const cors = require("cors");
 const path = require("path");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
