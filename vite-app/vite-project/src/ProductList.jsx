@@ -5,7 +5,7 @@ import axios from "axios";
 // axios.defaults.baseUrl = "http://localhost:8080";
 
 const ProductList = () => {
-  const [products, setProducts] = useState(data);
+  const [products, setProducts] = useState([]);
   //   const products = data;
   const getProducts = async () => {
     const res = await axios.get("/products");
