@@ -7,7 +7,7 @@ const path = require("path");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const axios = require("axios");
-console.log("env", process.env.DB_PASSWORD);
+// console.log("env", process.env.DB_PASSWORD);
 
 const { type } = require("os");
 const server = express();
