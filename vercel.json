@@ -22,6 +22,11 @@
       "dest": "new.js"
     },
     {
+      "src": "/add",
+
+      "dest": "dist/index.html"
+    },
+    {
       "src": "/",
 
       "dest": "dist/index.html"
