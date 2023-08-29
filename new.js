@@ -47,7 +47,7 @@ async function main() {
 
 // const Product = mongoose.model("Product", productSchema);
 server.use(cors());
-server.use(morgan("combined"));
+server.use(morgan("default"));
 
 // BODYPARSER
 server.use(cors());
